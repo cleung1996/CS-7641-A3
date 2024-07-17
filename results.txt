@@ -1,0 +1,91 @@
+For n_clusters = 4 The average silhouette_score is : 0.2721557273354435
+Inertia/Distortion Score: 9353.09380756467
+Silhouette Score: 0.2718590952532541
+AMI Score: 0.4118424481628651
+
+For n_clusters = 4 The average silhouette_score is : 0.08512087284901815
+Silhouette Score: 0.1739093308495909
+AMI Score: 0.3950426721059516
+
+Rice: KMeans/PCA- Inertia/Distortion Score: 13928.792136887347
+Rice: KMeans/PCA - Silhouette Score: 0.4099613567496324
+Rice: KMeans/PCA - AMI Score: 0.5684258796382526
+
+Rice: KMeans/ICA- Inertia/Distortion Score: 16263.202066362768
+Rice: KMeans/ICA - Silhouette Score: 0.14659058891152532
+Rice: KMeans/ICA - AMI Score: 0.23018384717143395
+
+Rice: KMeans/RP- Inertia/Distortion Score: 17553.662516402233
+Rice: KMeans/RP - Silhouette Score: 0.3370112445875063
+Rice: KMeans/RP - AMI Score: 0.2812112015075406
+
+Rice: EM/PCA- BIC/Distortion Score: -16498.83140809011
+Rice: EM/PCA - Silhouette Score: 0.34992442388708317
+Rice: EM/PCA - AMI Score: 0.5042370844407984
+
+Rice: EM/ICA- BIC/Distortion Score: 65944.35425840208
+Rice: EM/ICA - Silhouette Score: 0.3500768644641493
+Rice: EM/ICA - AMI Score: 0.5043137158304264
+
+Rice: EM/RP- BIC/Distortion Score: 29936.531596612287
+Rice: EM/RP - Silhouette Score: 0.3961627433197002
+Rice: EM/RP - AMI Score: 0.5991908381564416
+
+Benchmark: Rice - Neural Network Performance: 0.9238845144356955
+Benchmark: Rice - Neural Network Optimized Parameters: {'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': 16, 'learning_rate_init': 0.01}
+Benchmark: Rice - Neural Network Performance: 0.9238845144356955
+Benchmark: Rice - Time to train: 0.2825019359588623
+
+
+RICE - PCA - Best params for NN: {'activation': 'tanh', 'alpha': 0.01, 'hidden_layer_sizes': 2, 'learning_rate_init': 0.1}
+Train Time: 0.25124597549438477
+RICE - PCA - Best params best accuracy: 0.926509186351706
+Time to infer: 0.0005650520324707031
+
+RICE - ICA - Best params for NN: {'activation': 'relu', 'alpha': 1.0, 'hidden_layer_sizes': 4, 'learning_rate_init': 0.001}
+Train Time: 0.20021700859069824
+RICE - ICA - Best params best accuracy: 0.9186351706036745
+Time to infer: 0.0004067420959472656
+
+RICE - RP - Best params for NN: {'activation': 'relu', 'alpha': 0.1, 'hidden_layer_sizes': 16, 'learning_rate_init': 0.01}
+Train Time: 0.05895209312438965
+RICE - RP - Best params best accuracy: 0.8818897637795275
+Time to infer: 0.0007688999176025391
+
+Rice - KM NN - Training Time: 0.21862387657165527
+Rice - Best Params for KM NN: {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': 18, 'learning_rate_init': 0.001}
+Time to train: 0.13353776931762695
+Accuracy Score: 0.8937007874015748
+
+Rice - EM NN:
+MLPClassifier(activation='tanh', alpha=0.01, hidden_layer_sizes=(18,),
+              learning_rate_init=0.0001, max_iter=2000, random_state=620)
+Time to train: 0.4960513114929199
+Accuracy Score: 0.8910761154855643
+
+Mushroom:
+For n_clusters = 6 The average silhouette_score is : 0.3227196056416207
+Inertia/Distortion Score: 106605.25958789786
+Silhouette Score: 0.2750541212464132
+AMI Score: 0.29779099205668447
+For n_clusters = 8 The average silhouette_score is : 0.3452127886825807
+Silhouette Score: 0.2218650356963217
+AMI Score: 0.22963071345732178
+Mushroom: KMeans/PCA- Inertia/Distortion Score: 59615.334293615306
+Mushroom: KMeans/PCA - Silhouette Score: 0.362662988161229
+Mushroom: KMeans/PCA - AMI Score: 0.4171207459405938
+Mushroom: KMeans/ICA- Inertia/Distortion Score: 85517.90260864294
+Mushroom: KMeans/ICA - Silhouette Score: 0.1490406515138036
+Mushroom: KMeans/ICA - AMI Score: 0.25580895612327803
+Mushroom: KMeans/RP- Inertia/Distortion Score: 74047.00749745202
+Mushroom: KMeans/RP - Silhouette Score: 0.41443062026671007
+Mushroom: KMeans/RP - AMI Score: 0.018220571774191747
+Mushroom: EM/PCA- BIC/Distortion Score: -1027069.8279455542
+Mushroom: EM/PCA - Silhouette Score: 0.35825047241601893
+Mushroom: EM/PCA - AMI Score: 0.43924125614709875
+Mushroom: EM/ICA- BIC/Distortion Score: -1047108.5857192376
+Mushroom: EM/ICA - Silhouette Score: 0.24794880120459248
+Mushroom: EM/ICA - AMI Score: 0.32955079720558816
+Mushroom: EM/RP- BIC/Distortion Score: 108366.48086901545
+Mushroom: EM/RP - Silhouette Score: 0.13515112792153086
+Mushroom: EM/RP - AMI Score: 0.27053265519158864
